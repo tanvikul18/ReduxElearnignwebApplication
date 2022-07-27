@@ -1,0 +1,1381 @@
+/* Start of global layout css */
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+* {
+    line-height: 1.5em;
+}
+
+html[xmlns] .clearfix {
+    display: block;
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: .5;
+}
+
+div,
+p,
+span,
+input {
+    /*font-size: 16px;*/
+    margin: 0;
+}
+
+body {
+    display: block;
+    margin: 0px 2px;
+    color: #333333;
+    box-sizing: border-box;
+    font-family: 'Open Sans' !important;
+}
+
+b,
+strong {
+    font-family: 'Open Sans Semibold' !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    color: #333333;
+    line-height: 1.5;
+    font-weight: bold !important;
+}
+
+h1 {
+    font-size: 26px !important;
+    color: #333339;
+}
+
+h3 {
+    font-size: 18px !important;
+    margin: 5px 0px;
+}
+
+h4 {
+    font-size: 16px !important;
+}
+
+h2 {
+    font-size: 26px !important;
+}
+
+h2 span {
+    font-size: 26px !important;
+}
+
+h2.top-slider-heading {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+hr {
+    width: 100%;
+    border: 0px;
+    height: 0px;
+    border-bottom: 1px solid #999999;
+}
+
+fieldset {
+    border: 0px;
+}
+
+input,
+table {
+    font-size: 16px;
+}
+
+td>span {
+    font-size: 16px;
+}
+
+input[type='button'],
+button {
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: #0d4371;
+    /* GLOBAL:25-02-2019 MT All buttons color code change*/
+    border-color: rgb(0, 0, 0);
+    border-width: 0px;
+    cursor: pointer;
+    min-width: 100px;
+}
+
+/*Header Logo*/
+
+.smallDevice {
+    display: none;
+    width: 30px;
+}
+
+.largeDevice {
+    display: block;
+    width: 115px;
+}
+
+#progressInnrDiv:focus,
+#titleheader:focus,
+.menu_button a:focus,
+.submitFeedbackPopup:focus,
+h2:focus {
+    outline: none;
+}
+
+/*RK*/
+
+main {
+    clear: both;
+}
+
+.mxwidth {
+    max-width: 990px;
+}
+
+.headmargin {
+    margin-top: 0px;
+}
+.tdiv,.adiv{
+    border-bottom: 1px solid #c1c1c1;
+    display: inline-block;
+    padding-bottom: 10px;
+    min-height: 25px;
+    float: right;
+    width: 100%;
+}
+#wrapper {
+    width: 80%;
+    height: auto;
+    outline: 1px solid #cccccc;
+    min-height: 80px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+main [role='main'] {
+    clear: both;
+}
+
+.main-content {
+    min-height: 415px;
+}
+
+.innerWrapper {
+    clear: both;
+}
+
+.wrapper-img img {
+    width: 100%;
+}
+
+.preloader {
+    display: none;
+}
+
+.container {
+    max-width: 815px !important;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* End of global layout css */
+
+/*Global:Header Css Start*/
+
+#header-content {
+    float: left;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    z-index: 999;
+    background-color: #ffffff;
+    position: relative;
+}
+
+#header-title {
+    background: #FFF;
+    text-align: center;
+    min-height: 60px;
+    /*border-bottom: 1px solid #cccccc;*/
+    display: flex;
+}
+
+#header-title h1 {
+    color: #333333;
+    margin: 11px 2%;
+    width: 70%;
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Open Sans Semibold';
+    /*margin: 0 auto;*/
+}
+
+#header-title .largeDevice {
+    float: left;
+    margin: 10px 2%;
+    height: 35px;
+}
+
+#header-title .smallDevice {
+    margin: 12px 2%;
+    height: 27px;
+    display: none;
+}
+
+#header-title .team {
+    float: right;
+    margin: 11px 2%;
+    height: 35px;
+    cursor: pointer;
+}
+
+#progressInnrDiv {
+    font-size: 16px !important;
+    /*font-weight: bold;*/
+    color: #333333;
+    /*margin-left: 70px;*/
+}
+
+.progressForeground.ProgressForeGroundColor {
+    background-color: #0059A2;
+    height: 6px;
+    position: relative;
+    float: left;
+    border-radius: 5px;
+}
+
+#header-progress {
+    height: 30px;
+    float: left;
+    width: 100%;
+    background: #FFF;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    z-index: 1;
+}
+
+#header-progress .progressBar {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#header-progress .background {
+    width: 100%;
+    height: 8px !important;
+    border-radius: 5px;
+    background: #eae8e8;
+    border: 1px solid #f1f1f1;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#header-progress .background .section {
+    width: 25%;
+    text-align: right;
+    float: left;
+}
+
+#header-progress .background .filler {
+    height: 5px;
+    position: relative;
+}
+
+#header-progress .scale {
+    width: 50%;
+    height: 18px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#header-progress .scale .filler {
+    font-size: 12px;
+}
+
+#scoreInnrDiv {
+    display: -webkit-inline-box;
+}
+
+#header-btn-container {
+    float: left;
+    width: 100%;
+}
+
+#header-btn-container .wrapper {
+    float: right;
+    widows: auto;
+}
+
+#header-btn-container .linkppf-p,
+#header-btn-container .linksurplus-p {
+    margin: 5px 5px;
+    background: #045C42;
+}
+
+#header-btn-container .linksurplus-p {
+    margin-right: 0px;
+}
+
+#header-btn-container .linkppf-p img,
+#header-btn-container .linksurplus-p img {
+    padding-left: 5px;
+    position: relative;
+    top: 2px;
+}
+
+.pageaction {
+    position: relative;
+    bottom: 45px;
+    margin-left: 75%;
+    display: inline-flex;
+    float: none;
+}
+
+.pageaction div {
+    padding-right: 15px;
+}
+
+#pageaction_btn1,
+#pageaction_btn2,
+#pageaction_btn3,
+#pageaction_btn4,
+#pageaction_btn5 {
+    /*background-image: url(../images/ico_play-18px-v1.png);*/
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    border: none;
+    cursor: pointer;
+    height: 21px;
+    padding-left: 16px;
+    vertical-align: middle;
+}
+
+#pageaction_btn1,
+#pageaction_btn2,
+#pageaction_btn3,
+#pageaction_btn4,
+#pageaction_btn5 {
+    padding: 0px 0px;
+    min-width: 22px;
+    border-radius: 0px;
+}
+
+#pageaction_btn2 {
+    /*background-image: url(../images/ico_transcript-18px-v1.png);*/
+}
+
+#pageaction_btn3 {
+    /*background-image: url(../images/info.png);*/
+}
+
+#pageaction_btn4 {
+    /*background-image: url(../images/ico_pause-18px-v1.png);*/
+}
+
+#pageaction_btn5 {
+    /*background-image: url(../images/ico_replay-18px-v2.png);*/
+}
+
+.pageaction ul {
+    padding: 0px;
+    margin: 0px;
+    margin-right: 70px;
+}
+
+.pageaction ul li {
+    list-style-type: none;
+    display: inline;
+    /* margin-right: 10px; */
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.icon-play img,
+.transcript-popup img,
+.info-icon img {
+    position: relative;
+}
+
+/* 11-09 */
+
+.icon-play img {
+    /*width: 17px;
+    top: 1px;*/
+    top: -4px;
+    /*left: -5px;*/
+}
+
+.transcript-popup img {
+    /*width: 20px;*/
+    /*top: 2px;*/
+    top: -4px;
+    /*left: -5px;*/
+}
+
+.info-icon img {
+    /*width: 20px;
+    top: 2px;*/
+    top: -4px;
+    /*left: -5px;*/
+}
+
+/*Header Css End*/
+
+/* Start of Header Css */
+
+.container-fluid.navigation {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.moduleTitle {
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /*padding: 0px !important;
+    margin: 0px !important;*/
+    line-height: 1.5 !important;
+}
+
+.header-title h1 {
+    font-size: 28px;
+    font-weight: 600;
+    padding: 7px 0px !important;
+    text-align: -webkit-center;
+    text-align: -moz-center;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+.header-logo img {
+    /*width:30px;*/
+    padding: 12px 0;
+}
+
+.bg {
+    background: #19a5a3;
+    border-top: 1px solid #D7D7D7;
+    border-bottom: 1px solid #D7D7D7;
+}
+
+.header-brand h2 {
+    text-transform: capitalize;
+    font-size: 26px;
+    color: #000000;
+}
+
+/* End of Header Css */
+
+/* Start of Footer Csss */
+
+.footer-navigation {
+    border-top: 1px solid #CCCCCC;
+}
+
+.footer-navigation #linkprevious,
+.footer-navigation #linknext {
+    background: #fff;
+    border: none;
+}
+
+.footer-navigation .next,
+.footer-navigation .previous {
+    padding: 12px 0px;
+    margin: 0 50px 0 -145px;
+}
+
+.footer-navigation .next {
+    margin: 0 50px;
+}
+
+
+    .footer-navigation .previous {
+        margin-left: 185px;
+    }
+
+
+#linknext span,
+#linkprevious {
+    color: #0C75A2;
+    font-weight: bold;
+}
+
+/* End  of Footer Csss */
+
+/* Start - Dropdown Navigation CSS */
+
+.dropparentcontainer {
+    display: inline-block;
+    width: 100%;
+}
+
+#dropcontainer {
+    display: inline-block;
+    border-bottom: 1px solid #e6e6e6;
+    float: right;
+}
+
+#dropcontainer select {
+    background-color: white;
+    padding: 0em 2em 0em 1em;
+    border: none;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-flex;
+}
+
+select.drops {
+    background-image: linear-gradient(45deg, transparent 50%, #468eb3 50%), linear-gradient(135deg, #468eb3 50%, transparent 50%), linear-gradient(to right, white, white);
+    background-position: calc(100% - 20px) calc(9px), calc(100% - 14px) calc(9px), 100% 0;
+    background-size: 9px 7px, 6px 7px, 3px 20px;
+    background-repeat: no-repeat;
+}
+
+/* End - Dropdown Navigation CSS */
+
+/*Global: InfoDetails page css */
+
+#infoDetails,
+#transcriptDetails {
+    text-align: left;
+    z-index: 99;
+    border-radius: 0px;
+    background-color: #fff;
+    font-size: 16px;
+    color: #333333;
+    padding-bottom: 10px;
+    /*border-bottom: 1px solid #cccccc;*/
+    margin: 0 auto;
+    /* RK 26-19 */
+    width: 100%;
+    /*RK*/
+    max-width: 815px;
+    clear: both;
+    display: none;
+}
+
+#infoDetails {
+    /*border-bottom: 1px solid #cccccc;*/
+}
+
+/* InfoDetails page css end*/
+
+/*Global: Transcript page css */
+
+.tranPage {
+    display: none;
+    border-bottom: 1px solid #c1c1c1;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.tranPage .option-group .Toption {
+    display: none;
+}
+
+#teamWMsg,
+#teamFMsg,
+#lastspanNext,
+#teamRMsg {
+    display: none;
+}
+
+.tranPage h1 {
+    font-size: 16px;
+}
+
+/*end*/
+
+/*Global */
+
+.landing-page {
+    width: 100%;
+}
+
+.container {
+    max-width: 815px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.allContentContainer {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+table {
+    width: 100%;
+}
+
+.dummyMenuDiv {
+    width: 44px;
+    height: 5px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 100;
+    margin-left: 2px;
+    top: 32px;
+}
+
+.submit-btn {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.container .pageTitle {
+    color: #333333;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: 'Open Sans Semibold';
+}
+
+/* Global:first-page css */
+
+.pagedesc-1 {
+    width: 60%;
+    float: left;
+}
+
+.optimizeimage {
+    width: 37%;
+    float: right;
+}
+
+.scenario {
+    width: 100%;
+    float: left;
+}
+
+.scenariodesc img {
+    float: left;
+    padding-right: 10px;
+}
+
+.info-details-content {
+    padding-bottom: 15px;
+    overflow: auto;
+}
+
+.pageinfo-details {
+    cursor: pointer;
+}
+
+/* first-page end */
+
+/*Global:Question Css*/
+
+.questionband {
+    float: left;
+}
+
+.option-group div[role="radio"] {
+    display: flex;
+    width: 97%;
+    align-items: center;
+    margin: 3% 1%;
+    padding: 5px;
+}
+
+.option-group div[role="radio"]:hover {
+    font-weight: bold;
+}
+
+.option-group[aria-disabled="true"] div[role="radio"]:focus {
+    font-weight: normal;
+}
+
+.option-group div[role="radio"]:focus {
+    font-weight: bold;
+}
+
+.option-group div[role="checkbox"] {
+    display: flex;
+    width: 97%;
+    align-items: center;
+    margin: 3% 1%;
+    padding: 5px;
+}
+
+.option-group div[role="checkbox"]:hover {
+    font-weight: bold;
+}
+
+.option-group[aria-disabled="true"] div[role="checkbox"]:focus {
+    font-weight: normal;
+}
+
+.option-group div[role="checkbox"]:focus {
+    font-weight: bold;
+}
+
+.option_icon {
+    float: left;
+    width: 8%;
+}
+
+.option_txt {
+    margin-left: 20px;
+    cursor: pointer;
+    width: 90%;
+}
+
+.option_icon span {
+    border-radius: 31px;
+    background: #33A7C0;
+    color: #FFF;
+    font-size: 20px;
+    display: block;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.option_icon .fa {
+    margin-top: calc(58px - 36px);
+}
+
+.option_txt {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.optionselected {
+    background-color: #f1f1f1 !important;
+    font-weight: bold !important;
+}
+
+.optionselected.perImage {
+    background-color: #ffffff !important;
+    font-weight: 100 !important;
+}
+
+.submit-btn input,
+.close-btn input {
+    background: #0d4371;
+}
+
+.about-simulation {
+    display: block;
+    padding-top: 20px;
+    border-top: 1px solid #cccccc;
+}
+
+.close-btn {
+    padding-left: 50%
+}
+
+#btnSubmit {
+    /*background-color:#cccccc;*/
+    color: #fff;
+    border-radius: 5px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.submitFeedbackPopup,
+.submitDragFeedbackPopup {
+    position: relative;
+    padding-top: 10px;
+    font-family: 'Open Sans' !important;
+    font-size: 16px;
+    display: none;
+    /*margin: 10px 80px 20px 100px;*/
+    border-top: 1px solid #f1f1f1;
+}
+
+.submitFeedbackPopupDnD {
+    display: none;
+}
+
+.submitFeedbackPopupSlider {
+    display: none;
+}
+
+.submitFeedbackPopupInput {
+    display: none;
+}
+
+.submitFeedbackPopup div {
+    margin: 0 10%;
+}
+
+.submitFeedbackPopupSummary {
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+}
+
+.submitFeedbackPopupSummary div {
+    margin: 5px 10px 15px 10px !important;
+}
+
+.submitFeedbackPopup .fdk {
+    display: none;
+}
+
+.pageinstruction {
+    clear: both;
+}
+
+/*Question Css*/
+
+/*Global: Screen pages css starts*/
+
+.pagedesc p {
+    float: left
+}
+
+.pagedesc img {
+    float: right;
+    padding-left: 10px;
+}
+
+/* Screen pages css end */
+
+/*Global: Result page css */
+
+.qHeader,
+.qData {
+    width: 100%;
+    display: inline-block;
+}
+
+.qHeader div {
+    float: left;
+    margin-right: 10px;
+}
+
+.qHeader img {
+    height: 11px;
+    width: 5px;
+}
+
+.qHeader img.selctImg {
+    height: 6px;
+    width: 11px;
+    margin-bottom: 2px;
+}
+
+.qHeader img.isOpen {
+    height: 6px;
+    width: 11px;
+    margin-bottom: 2px;
+}
+
+.qData {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #c1c1c1;
+    margin-left: 20px;
+    width: 95%;
+}
+
+.qHeader {
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+
+.qHeader h3 {
+    font-size: 16px;
+    margin: 0;
+}
+
+.reportHeader,
+.gradeSuccessStatus {
+    border-bottom: 2px solid #a1daea;
+    padding: 0px;
+    display: inline-block;
+    width: 100%;
+}
+
+#gradeSuccessText {
+    float: left;
+    width: 81%;
+    padding: 0 2%;
+}
+
+#gradeSuccessButton {
+    width: 15%;
+    float: left;
+}
+
+#reportHTitle {
+    padding: 0 2%;
+    width: 18%;
+    float: left;
+    border-right-style: solid;
+    border-width: 3px;
+    border-color: #007fa2;
+    margin-top: 4px;
+}
+
+#resultexpand {
+    padding: 5px;
+}
+
+#reportRetry {
+    padding: 1% 2% 0%;
+    float: right;
+    display: flex;
+}
+
+.retryattemtDiv {
+    float: left;
+    margin: 8px 15px 0px 0px;
+}
+
+#retryattemptText {
+    font-size: 14px;
+}
+
+.retryButtonDiv {
+    float: right;
+}
+
+#gradeChart {
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid #a1daea;
+}
+
+#inScrTxt1,
+#inScrTxt2,
+#inScrTxt3 {
+    position: absolute;
+    margin: 0 auto;
+    text-align: center;
+    top: 105%;
+    font-size: 14px;
+    font-weight: bold;
+    width: 120%;
+    left: -5%;
+}
+
+.pieimage {
+    float: left;
+}
+
+.resultexpand {
+    border-left-style: solid;
+    border-left-color: #007fa2;
+}
+
+.qTitle {
+    text-align: left;
+    width: 72%;
+    background-color: #fff;
+    color: #000;
+    min-width: 0px;
+    padding: 1px 0px;
+    text-decoration: underline;
+    height: 100%;
+}
+
+.LOResultData {
+    width: 98%;
+    margin: 1%;
+    display: inline-block;
+}
+
+.LOResultName {
+    float: left;
+    /* margin-right: 28%; */
+    margin-right: 5%;
+    width: 75%;
+}
+
+.LOResulteText {
+    float: left;
+    width: 20%;
+}
+
+.qArrowlink,
+.qTitle {
+    cursor: pointer;
+}
+
+#collapseImage {
+    display: block;
+}
+
+/*end*/
+
+/*V2.0 - to show/hide coming soon page if user not exists*/
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    width: calc(100% - 343px);
+    height: 100%;
+    left: 12.94%;
+    top: 0px;
+    background-color: rgba(28, 28, 28, 0.47);
+}
+
+#bestscorepopup_Div {
+    /* position: absolute;     */
+    width: 297px;
+    margin: 20% auto;
+    background-color: white;
+    padding: 2% 2% 6%;
+    border-radius: 5px;
+    border: 2px solid rgb(51, 167, 192);
+    /*display: none;*/
+}
+
+.firstQuestionCancelDiv {
+    float: right;
+}
+
+/* RK-25-02-19 start for Result Page */
+
+.qTitle h3 {
+    font-size: 16px;
+    margin: 0px;
+}
+
+.qArrowlink,
+.qTitle {
+    cursor: pointer;
+}
+
+.qArrowlink {
+    margin-right: 8px;
+}
+
+.qTitle {
+    text-align: left;
+    width: 75%;
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    min-width: 0px;
+    padding: 1px 0px;
+    text-decoration: underline;
+    height: 100%;
+    float: left;
+}
+
+.qTitle h1 {
+    height: 100%;
+}
+
+.pieImage {
+    margin-left: 3px;
+    float: left;
+    /*width:3%;*/
+}
+
+.pieImage img {
+    width: 15px;
+    height: 16px;
+    margin-top: 4px;
+}
+
+ul#appmenulist li:first-child {
+    margin-top: 3px !important;
+}
+
+h2.pageheading:focus {
+    width: fit-content;
+    width: -moz-fit-content;
+}
+
+/* RK-25-02-19 End for Result Page */
+
+/*Global hidding blue border css*/
+
+h1:focus,
+h2:focus,
+h3:focus,
+h4:focus,
+p:focus,
+div:focus,
+span:focus,
+img:focus,
+input:focus,
+tr:focus,
+td:focus,
+table:focus,
+#bestscorepopup_Div:focus,
+#linkprevious:focus,
+#linknext:focus {
+    /*outline: auto;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: #007AA2 !important;*/
+    outline: auto;
+    outline-style: solid;
+    outline-width: 3px;
+    outline-color: #007889 !important;
+    outline-offset: 2px;
+}
+
+#appmenu:focus {
+    outline: auto;
+    outline-style: solid;
+    outline-width: 3px;
+    outline-color: #007889 !important;
+    outline-offset: -3px;
+}
+
+.no-focus h1,
+.no-focus h2,
+.no-focus h3,
+.no-focus h4,
+.no-focus p,
+.no-focus span,
+.no-focus div,
+.no-focus img,
+.no-focus input,
+.no-focus tr,
+.no-focus td,
+.no-focus table,
+.no-focus #bestscorepopup_Div,
+.no-focus #linkprevious,
+.no-focus #linknext,
+.no-focus #appmenu {
+    outline: none;
+}
+
+button:focus-visible {
+    outline: 3px solid #007889 !important;
+    outline-offset: 2px;
+}
+
+button:focus:not(:focus-visible) {
+    outline: none !important;
+}
+
+button:focus {
+    outline: auto;
+    outline-style: solid;
+    outline-width: 3px;
+    outline-color: #007889 !important;
+    outline-offset: -3px;
+}
+
+.no-focus button {
+    outline: none !important;
+}
+
+/* Component Level Css */
+
+.cmp_prop_panel {
+    display: none;
+}
+
+.cmp_data_panel {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    padding: 10px 0px;
+}
+
+.container.textasset {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+.ques-collapsible-panel {
+    display: none;
+}
+
+.option-group p,
+.qScore p {
+    margin-bottom: 0rem !important;
+}
+
+.qHeader h3,
+.reportHTitle h3 {
+    margin: 0px !important;
+}
+
+.objLink {
+    text-decoration: underline !important;
+}
+
+.TICContent {
+    margin: 0px !important;
+}
+
+#editor {
+    padding-top: 0px !important;
+}
+
+.div-edit-properties {
+    outline: 0px;
+}
+
+.selectOptionIconWrapper {
+    display: none;
+}
+
+#btnSubmitSummary:hover,
+#btnSubmitDnDMany:hover,
+#btnSubmitSlider:hover,
+#btnSubmitInput:hover,
+#btnclosebestscorepopup:hover {
+    color: #ffffff;
+}
+
+.pagedesc,
+.pagedesc ol,
+.pagedesc ul,
+.tranPage ul,
+.tranPage ol {
+    display: inline-block;
+    width: 96%;
+}
+
+#skip-to-main a {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+#skip-to-main a:focus {
+    position: static;
+    width: auto;
+    height: auto;
+}
+
+.header {
+    text-align: center;
+    text-align: -webkit-center;
+    text-align: -moz-center
+}
+
+/* RA-27April2021 - Custom Checkbox Style css start */
+
+/* Customize the label (the container) */
+
+.option_checkBox_custom {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+
+.option_checkBox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eeeeee;
+    border: 1px solid #000000;
+    border-radius: 0px;
+}
+
+/* On mouse-over, add a grey background color */
+
+.option_checkBox_custom:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+
+.option_checkBox_custom input:checked~.checkmark {
+    background-color: #007889;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+
+.option_checkBox_custom input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+
+.option_checkBox_custom .checkmark:after {
+    left: 6px;
+    top: 1px;
+    width: 7px;
+    height: 13px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+#infoDetails{
+    display:none;
+}
+/* RA-27April2021 - Custom Checkbox Style css end */
